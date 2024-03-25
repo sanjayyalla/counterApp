@@ -1,4 +1,4 @@
-.container{
+/* .container{
    
     display: flex;
    justify-content: center;
@@ -29,4 +29,142 @@
 }
 body{
     background-color: rgba(9, 223, 252, 0.555);
+} */
+
+
+/*body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; 
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; 
+  
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333; 
+  }
+  
+  .counter-form {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .button {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .minus {
+    background-color: #ff7f50; 
+    color: white;
+  }
+  
+  .plus {
+    background-color: #20b2aa; 
+    color: white;
+  }
+  
+  .counter {
+    font-size: 2rem;
+    margin: 0 20px;
+  }
+  .container :disabled{
+    opacity: 0.5;
+}*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; 
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; 
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .counter-form {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .limit-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .limit-input {
+    font-size: 1rem;
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .button {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .minus {
+    background-color: #ff7f50; 
+    color: white;
+  }
+  
+  .plus {
+    background-color: #20b2aa; 
+    color: white;
+  }
+  
+  .ok {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .counter {
+    font-size: 2rem;
+    margin: 0 20px;
+  }
+  .buttonnew{
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 10px 20px;
+  }
+  .container :disabled{
+    opacity: 0.5;
 }
